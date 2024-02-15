@@ -38,7 +38,6 @@ body {
   width: 97%;
   height: 100px;
   text-align: end;
-  line-height: 100px;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
   /* color: rgb(238, 238, 238); */
   border-radius: 10px;
@@ -77,9 +76,10 @@ body {
   align-items: center;
   outline: none;
   text-align: center;
+  z-index: 10;
 }
 
-.calculator .keys div.active {
+.calculator .keys div:active {
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
   color: #f44336;
 }
