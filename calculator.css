@@ -47,6 +47,11 @@ body {
   font-weight: 500;
   color: #5166d6;
   background-color: inherit;
+  overflow: auto;
+}
+
+.calculator .display::-webkit-scrollbar {
+  width: 0px;
 }
 
 .calculator .keys {
